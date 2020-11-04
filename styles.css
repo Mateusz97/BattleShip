@@ -1,0 +1,31 @@
+body{
+    background-color: gainsboro;
+    align-items: center;
+}
+#app{
+    width: 70%;
+    text-align: center;
+    }
+td{
+    height:32px;
+    width:32px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: cornsilk;
+}
+table{
+    border-spacing: 0;
+    padding: 8px;
+}
+#boards{
+    display: flex;
+}
+.ship{
+    background-color: green;
+}
+.marked{
+    background-color: brown;
+}
+.miss{
+    background-color: blue;
+}
